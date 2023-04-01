@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $mainFontFamily;
+    padding: 200px 0 0 0;
+
+    @include forTablet {
+        padding: 130px 0 0 0;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
